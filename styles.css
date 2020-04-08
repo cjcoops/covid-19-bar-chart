@@ -1,0 +1,44 @@
+:root {
+  --main-text-color: rgb(224, 228, 228);
+  --main-bg-color: #212424;
+  --line-color: #c0c0bb;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+  background-color: var(--main-bg-color);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+rect {
+  fill: rgb(254, 106, 106);
+}
+
+text {
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--main-text-color);
+}
+
+.tick text {
+  font-size: 1rem;
+}
+
+.tick line {
+  color: var(--line-color);
+}
+
+.axis-label {
+  font-size: 1.2rem;
+  fill: var(--main-text-color);
+}
+
+.title {
+  font-size: 1.25rem;
+  fill: var(--main-text-color);
+}
