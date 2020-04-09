@@ -64,7 +64,6 @@ module.exports = () => {
       .attr("class", "axis-label")
       .attr("y", 50)
       .attr("x", innerWidth / 2)
-      // .attr("fill", "white")
       .text(xAxisLabelText);
 
     g.selectAll("rect")
@@ -79,6 +78,10 @@ module.exports = () => {
   };
 
   csv(require("./assets/data.csv")).then((data) => {
+    data.forEach((d) => {
+      d.number_of_cases = +d.number_of_cases;
+    });
+    
     render(data);
   });
 };

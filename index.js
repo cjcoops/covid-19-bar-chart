@@ -21,4 +21,4 @@ visualizations.forEach((visualization) => {
   navElement.appendChild(a);
 });
 
-visualizations[0].function();
+visualizations[1].function();

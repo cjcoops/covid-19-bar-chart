@@ -34,9 +34,7 @@ a:hover {
   height: 100vh;
 }
 
-rect {
-  fill: var(--pink);
-}
+
 
 text {
   font-family: var(--font-family);
@@ -59,4 +57,13 @@ text {
 .title {
   font-size: 1.25rem;
   fill: var(--main-text-color);
+}
+
+rect {
+  fill: var(--pink);
+}
+
+circle {
+  fill: var(--pink);
+  opacity: 0.5;
 }
