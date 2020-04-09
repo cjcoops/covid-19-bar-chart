@@ -1,1 +1,4 @@
-This bar chart shows number of cases of COVID-19 in Canada as of April 8, 2020. The data comes from [Coronavirus disease (COVID-19): Outbreak update](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html). It also demonstrates customization of D3 axes.
+## A collection of charts made as I learn D3.js
+
+### Data Sources: 
+[Coronavirus disease (COVID-19): Outbreak update](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html).
