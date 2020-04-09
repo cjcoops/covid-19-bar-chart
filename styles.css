@@ -2,12 +2,30 @@
   --main-text-color: rgb(224, 228, 228);
   --main-bg-color: #212424;
   --line-color: #c0c0bb;
+  --font-family: "IBM Plex Mono", monospace;
+  --pink: rgb(254, 106, 106);
 }
 
 body {
   margin: 0px;
   overflow: hidden;
   background-color: var(--main-bg-color);
+  font-family: var(--font-family);
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+}
+
+a {
+  color: var(--main-text-color);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--pink);
 }
 
 .container {
@@ -17,11 +35,11 @@ body {
 }
 
 rect {
-  fill: rgb(254, 106, 106);
+  fill: var(--pink);
 }
 
 text {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-family);
   color: var(--main-text-color);
 }
 
